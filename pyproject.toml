@@ -11,7 +11,9 @@ requires-python = ">=3.11"
 license = { text = "MIT" }
 authors = [{ name = "Aseel Herzallah" }]
 
-dependencies = []
+dependencies = [
+    "pydantic>=2.6.0",
+]
 
 [project.optional-dependencies]
 dev = [
